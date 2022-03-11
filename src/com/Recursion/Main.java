@@ -20,10 +20,10 @@ public class Main {
 
             Arrays.fill(arr,45);
 
-            // printing the array with replacement.
-//            for(int j:arr){
-//                System.out.println(j+" ");
-//            }
+             // printing the array with replacement.
+            for(int j:arr){
+                System.out.println(j+" ");
+            }
         }
     }
 }
