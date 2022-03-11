@@ -9,5 +9,11 @@ public class Main {
         // will directly call a method for binary search.
         int index = Arrays.binarySearch(arr,7);
         System.out.println(index);
+
+        // you can directly sort the array
+        Arrays.sort(arr);
+        for(int i:arr){
+            System.out.print(i+ " ");
+        }
     }
 }
